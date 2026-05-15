@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# Type checker / linter cache
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Build
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code local config
+.claude/
+
+# RepoScope runtime data
+.reposcope/
+repo_summary.json
+
+# Cache files
+*.pkl
+
+# Logs / local notes
+*.log
+log.md
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
